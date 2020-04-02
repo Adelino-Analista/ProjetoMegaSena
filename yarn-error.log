@@ -1,0 +1,66 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.9.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-navegation: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
+      at Request.emit (events.js:321:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
+      at Request.emit (events.js:321:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:427:28)
+      at IncomingMessage.emit (events.js:333:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "AwesomeProject",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "start": "react-native start",
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "@react-navigation/native": "^5.0.0",
+      "react": "16.9.0",
+      "react-native": "0.61.5",
+      "react-navegation": "5.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "7.8.3",
+      "@babel/runtime": "7.8.3",
+      "@react-native-community/eslint-config": "0.0.5",
+      "babel-jest": "24.9.0",
+      "eslint": "6.8.0",
+      "jest": "24.9.0",
+      "metro-react-native-babel-preset": "0.56.4",
+      "react-test-renderer": "16.9.0"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
